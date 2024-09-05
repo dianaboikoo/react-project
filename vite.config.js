@@ -9,7 +9,7 @@ export default defineConfig(({ command }) => {
     };
 
     if (command !== "serve") {
-        config.base = "/react-vite-rest-post-app-with-auth/";
+        config.base = "/react-project/";
     }
 
     return config;
